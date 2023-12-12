@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-1 a{
+    text-decoration: none;
+}
+/* section one */
+.section-1{
+    position: relative;
+    z-index: -99;
+}
+.sec1-2{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+}
+.sec1-2-1{
+    width: 40%;
+    color: white;
+}
+.sec1-2-1 h1{
+    font-weight: 600;
+}
+.sec1-2-1 button{
+    margin-bottom: 10px;
+}
+.sec1-int input{
+    height: 40px;
+    width: 20px;
+}
+.btm-ban{
+    position: absolute;
+    bottom: 0;
+}
+
+            /* section-2 */
+.sec2-1{
+    background-color: green;
+}
+.sec2-1 h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
