@@ -35,19 +35,86 @@
 }
 
             /* section-2 */
-.sec2-1{
-    background-color: green;
-}
-.sec2-1 h1{
+/* .sec2-1{
+    /* background-color: green; */
+    /* width:  50%;  */
+.sec2-1-1{
     text-align: center;
 }
 
+.sec2-1 p:nth-child(3){
+    background-color: skyblue;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 20px auto;
+    color: skyblue;
+}
+.sec2-1 p:last-child{
+    color: lightslategray;
+    width: 70%;
+}
+        /* section-2-2 */
 
+.sec2-2 p:nth-child(3){
+    /* background-color: yellow; */
+    width: 75%;
+}
+.sec2-2 .uniq{
+    background-color: skyblue;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px 10px 10px 0;
+    color: skyblue;
+}
+            /* section-2-3 */
+.sec-2-3-2-h,p{
+    width: 80%;
+}
+.sec2-3-2 .uniq{
+    background-color: skyblue;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px 10px 10px 0;
+    color: skyblue;
+}
+                /* section-2-4 */
+.sec2-4-h p{
+    width: 80%;
+}
+                   /* section-3 */
 
-
-
-
-
+.sec3{
+    position: relative;
+}
+.sec3-2-img{
+    position: absolute;
+    top: 0;
+    z-index: -999;
+}
+.sec3-3 .uniq{
+    background-color: skyblue;
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px 10px 10px 70px;
+    color: skyblue;
+}
+.sec3-3 p:last-child{
+    color: skyblue;
+}
+.sec3-4{
+    position: absolute;
+    z-index: -999;
+    left: 0;
+    right: 0;
+}
+/* .icon-1{
+    position: absolute;
+    z-index: 99; 
+} */
 
 
 
