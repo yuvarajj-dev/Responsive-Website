@@ -1,0 +1,6 @@
+You are in control
+Use your dedicated upload page to receive files from your clients. Brand your upload page with your own logo and name or embed the upload tool on your own website. You can also easily capture custom fields along with the files using our "form builder" tool. Want different customers files to show up in separate folders... no problem.
+Get started in minutes
+Getting up and running with GoFileDrop takes only a couple of minutes, simply authorise the Application to work with your Cloud Storage in a few clicks and you can start receiving files immediately. Branding the Application with your own logo and name is also easily configured.
+Scales with your organisation
+GoFileDrop can be used with a single Gmail or Dropbox account or be rolled out to an entire organisation. To use GoFileDrop in your organisation install it from the Google Apps Marketplace. To use GoFileDrop with a single Gmail account click here

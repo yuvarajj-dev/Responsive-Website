@@ -111,15 +111,39 @@
     left: 0;
     right: 0;
 }
-/* .icon-1{
+.sec3-icon1{
+    background-image: url(./webpageTask-1/images/others/features-cont-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+                            /* section-4 */
+.sec-4{
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+.bg-main{
     position: absolute;
-    z-index: 99; 
-} */
-
-
-
-
-
+    left: 0;
+    right: 0;
+    z-index: -99;
+}
+.sec4-1 h1{
+    color: #fff;
+}
+.sec4-1 p{
+    background-color: rgb(240, 247, 250);
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px 10px 10px 70px;
+    color: skyblue;
+}
+.sec4-icon1{
+    background-image: url(./webpageTask-1/images/others/features-cont-bg\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
