@@ -69,10 +69,10 @@
     color: skyblue;
 }
             /* section-2-3 */
-.sec-2-3-2-h,p{
+.about-section, .uniq{
     width: 80%;
 }
-.sec2-3-2 .uniq{
+.about-section .uniq{
     background-color: skyblue;
     width: 60px;
     height: 3px;
@@ -92,7 +92,14 @@
 .sec3-2-img{
     position: absolute;
     top: 0;
-    z-index: -999;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* z-index: -98; */
+}
+.sec3-2-img img{
+    width:100%;
+    height:100%;
 }
 .sec3-3 .uniq{
     background-color: skyblue;
@@ -114,19 +121,21 @@
 .sec3-icon1{
     background-image: url(./webpageTask-1/images/others/features-cont-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: top;
 }
                             /* section-4 */
 .sec-4{
     position: relative;
-    top: 0;
-    bottom: 0;
+    
 }
 .bg-main{
     position: absolute;
     left: 0;
     right: 0;
-    z-index: -99;
+    z-index: -1;
+    top:0;
+    bottom:0
 }
 .sec4-1 h1{
     color: #fff;
@@ -144,7 +153,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.lap-btm{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: -99;
+}
 
 
 
