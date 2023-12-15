@@ -35,9 +35,7 @@
 }
 
             /* section-2 */
-/* .sec2-1{
-    /* background-color: green; */
-    /* width:  50%;  */
+
 .sec2-1-1{
     text-align: center;
 }
@@ -56,10 +54,6 @@
 }
         /* section-2-2 */
 
-.sec2-2 p:nth-child(3){
-    /* background-color: yellow; */
-    width: 75%;
-}
 .sec2-2 .uniq{
     background-color: skyblue;
     width: 60px;
@@ -68,10 +62,7 @@
     margin: 10px 10px 10px 0;
     color: skyblue;
 }
-            /* section-2-3 */
-.about-section, .uniq{
-    width: 80%;
-}
+    
 .about-section .uniq{
     background-color: skyblue;
     width: 60px;
@@ -80,92 +71,42 @@
     margin: 10px 10px 10px 0;
     color: skyblue;
 }
-                /* section-2-4 */
-.sec2-4-h p{
-    width: 80%;
-}
-                   /* section-3 */
-
-.sec3{
+            /* feature-section */
+.feature{
     position: relative;
 }
-.sec3-2-img{
+.feature-bg-div{
     position: absolute;
     top: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
-    /* z-index: -98; */
+    z-index: -99;
 }
-.sec3-2-img img{
-    width:100%;
-    height:100%;
+.feature-head-div{
+    text-align: center;
 }
-.sec3-3 .uniq{
-    background-color: skyblue;
-    width: 60px;
-    height: 3px;
-    display: block;
-    margin: 10px 10px 10px 70px;
+.feature-head-div p{
     color: skyblue;
 }
-.sec3-3 p:last-child{
-    color: skyblue;
+.feature-head-div .uniq{
+    margin: auto;
 }
-.sec3-4{
-    position: absolute;
-    z-index: -999;
-    left: 0;
-    right: 0;
-}
-.sec3-icon1{
+.feature-three-box{
     background-image: url(./webpageTask-1/images/others/features-cont-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: top;
+    height: 00px;
 }
-                            /* section-4 */
-.sec-4{
+                    /* work-section */
+.work{
     position: relative;
-    
 }
-.bg-main{
+.work-bg{
     position: absolute;
+    top: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    top:0;
-    bottom:0
-}
-.sec4-1 h1{
-    color: #fff;
-}
-.sec4-1 p{
-    background-color: rgb(240, 247, 250);
-    width: 60px;
-    height: 3px;
-    display: block;
-    margin: 10px 10px 10px 70px;
-    color: skyblue;
-}
-.sec4-icon1{
-    background-image: url(./webpageTask-1/images/others/features-cont-bg\ -\ Copy.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.lap-btm{
-    position: absolute;
     bottom: 0;
-    left:0;
-    right:0;
-    z-index: -99;
+    z-index: ;
 }
-
-
-
-
-
-
-
-
-

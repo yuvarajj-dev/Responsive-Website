@@ -4,3 +4,43 @@ Get started in minutes
 Getting up and running with GoFileDrop takes only a couple of minutes, simply authorise the Application to work with your Cloud Storage in a few clicks and you can start receiving files immediately. Branding the Application with your own logo and name is also easily configured.
 Scales with your organisation
 GoFileDrop can be used with a single Gmail or Dropbox account or be rolled out to an entire organisation. To use GoFileDrop in your organisation install it from the Google Apps Marketplace. To use GoFileDrop with a single Gmail account click here
+
+
+                                    <!-- section-4 -->
+    <section class=" sec-4 w-100 ">
+        <div class="w-100 bg-main">
+            <img src="./webpageTask-1/images/others/workbg.jpg" alt="lap-bg" class="img-fluid">
+        </div>
+        <div class="sec4-1 text-center py-5">
+            <h1>How does it work?</h1>
+            <div class="col-6 offset-5 py-2">
+                <p class="uniq "></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row col-12">
+                <div class="col-4 sec4-icon1 text-center">
+                    <div class="">
+                        <img src="./webpageTask-1/images/icons/work-3-wh.png" alt="sec4-icon1" class="img-fluid bg-primary">
+                    </div>
+                    <div>
+                        <h3>Easily create your File Request. No coding required</h3>
+                        <p>Brand your upload page with your own logo and name or embed the upload tool on your own website. You can also easily capture
+                           custom</p>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <div class="lap-btm w-100">
+            <img src="./webpageTask-1/images/others/work-bottom-curve.png" alt="lap-bottom" class="img-fluid">
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="w-100">
+            <img src="./webpageTask-1/images/others/features-top-sec.png" alt="feature-top-bg" class="img-fluid">
+        </div>
+        <div class="w-100">
+            <img src="./webpageTask-1/images/others/features-bg.png" alt="feature-bg" class="img-fluid">
+        </div>
+    </section>
