@@ -75,13 +75,17 @@
 .feature{
     position: relative;
 }
+.section-with-bg{
+    width: 100%;
+    heig
+}
 .feature-bg-div{
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -99;
+    z-index: -1;
 }
 .feature-head-div{
     text-align: center;
@@ -96,7 +100,7 @@
     background-image: url(./webpageTask-1/images/others/features-cont-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 00px;
+    height: 500px;
 }
                     /* work-section */
 .work{
@@ -108,5 +112,5 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: ;
+    z-index: -2;
 }
