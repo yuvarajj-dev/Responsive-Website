@@ -213,7 +213,99 @@
 .quotation-line{
     background-color: lightgray;
     border: 1px solid lightgrey;
-    height: 110px;
+    height: 185px;
     width: 1px;
     margin: auto;
 }
+.starimg{
+    width: 100px;
+    height: 25px;
+}
+
+            /* FAQ Section */
+.faq-heading .uniq{
+    margin: auto;
+}
+            /* footer-section */
+.footer-main-div{
+    padding-left: 20%;
+}
+.footer-section{
+    position: relative;
+}
+.footer-bg-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+}
+.footer-bg{
+    border-top-left-radius: 35%;
+}
+/* .footer-first-div{
+    padding-top: 78%;
+} */
+.googledrive{
+    height: 80px;
+}
+.facebook{
+    width: 30px;
+    padding-left: 10px;
+}
+.footer-first-list li{
+    padding-top: 1%;
+}
+.footer-row{
+    padding-top: 9%;
+}
+.footer-input{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 0 0 15px;
+}
+.btn-subscribe{
+        width: 50%;
+        height: 40px;
+        border: none;
+        border-radius: 20px;
+        background-color: lightgreen;
+}
+/* .footer-third-div{
+    padding-top: 48%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
