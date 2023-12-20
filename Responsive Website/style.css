@@ -156,6 +156,64 @@
     margin: auto;
 }
 .purchase-content{
-    border:1px solid #000;
+    border-radius: 15px;
+    position: relative;
+    z-index: 999;
+    box-shadow: -3px -3px 20px -1px;
+}
+.purchase-center{
+    transform: scale(105%);
+}
+.purchase-content .uniq{
+    margin: auto;
+    color: greenyellow!important;
+}
+.purchase-card1-list li{
+    padding-top: 10px;
+}
+.btn-bg-first-bg{
+    position: absolute;
+    left: 0;
+}
+.purchase-card2-list li{
+    padding-top: 10px;
+}
+.purchase-btn-bg-div{
+    position: absolute;
+    bottom: 0;
+    z-index: -99;
+}
+.purchase-btn{
+    padding-top: 30%;
 }
 
+
+    /* profile section */
+
+.profile-section{
+    position: relative;
+}
+.profile-bgimg-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9;
+}
+.profile-bgimg-div img{ 
+    height: 500px;
+    width: 100%;
+}
+.profile-heading .uniq{
+    margin: auto;
+}
+.profile-dp{
+    border-radius: 50%;
+    border: 4px solid rgb(6, 144, 236);
+}
+.quotation-line{
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    height: 110px;
+    width: 1px;
+    margin: auto;
+}
