@@ -33,6 +33,20 @@
     position: absolute;
     bottom: 0;
 }
+.header-list a{
+    color: rgb(51, 49, 49);
+    font-weight: 500;
+}    
+.header-btn-1{
+    border: 2px solid rgb(15, 106, 224)!important;
+    color: rgb(15, 106, 224)!important;
+    box-shadow: 1px 2px 7px -1px black;
+}
+.header-btn-2{
+    background-color: rgb(99, 236, 99)!important;
+    border: none!important;
+    box-shadow: 1px 2px 7px -1px black;
+}
 
             /* section-2 */
 
@@ -51,6 +65,9 @@
 .sec2-1 p:last-child{
     color: lightslategray;
     width: 70%;
+}
+.section-one-btn-one{
+    background-color: rgb(99, 236, 99)!important;
 }
         /* section-2-2 */
 
@@ -276,8 +293,17 @@
     padding-top: 48%;
 } */
 
-
-
+.footer-forth-div a{
+    text-decoration: none;
+    color: white;
+}
+.horizontal-line{
+    border: 1px solid grey;
+    margin-top: 100px;
+}
+table p{
+    font-weight: 100;
+}
 
 
 
