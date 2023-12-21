@@ -53,7 +53,9 @@
 .sec2-1-1{
     text-align: center;
 }
-
+.collect-sec-head{
+    font-family: 'DM Serif Display', serif;
+}
 .sec2-1 p:nth-child(3){
     background-color: skyblue;
     width: 60px;
@@ -111,14 +113,26 @@
 .feature-head-div p{
     color: skyblue;
 }
+.feature-heading-para{
+    font-size: x-large!important;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Outfit', sans-serif;
+}
 .feature-head-div .uniq{
     margin: auto;
+}
+.feature-card-one-heading{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Outfit', sans-serif;
 }
 .feature-three-box{
     background-image: url(./webpageTask-1/images/others/features-cont-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 500px;
+}
+.three-box-icon img{
+    border-radius: 50%;
 }
                     /* work-section */
 .work{
@@ -134,18 +148,22 @@
 }
 .work-heading .uniq{
     margin: auto;
+    color: white;
+    background-color: white;
 }
 .work-icon-div{
     width: 30%!important;
+    border-radius: 15px;
 }
 .work-icon-img{
     border-radius: 50px;
 }
 .work-pesudo-element-1{
     position: relative;
+    border-radius: 15px;
 }
 .work-pesudo-element-1::before{
-    content: "";
+    content: "";    
     position: absolute;
     background-image: url(./webpageTask-1/images/icons/work-next.png);
     background-repeat: no-repeat;
@@ -157,6 +175,7 @@
 }
 .work-pesudo-element-2{
     position: relative;
+    border-radius: 15px;
 }
 .work-pesudo-element-2::before{
     content: "";
