@@ -194,11 +194,15 @@
 .purchase-content{
     border-radius: 15px;
     position: relative;
+    background-color: white;
     z-index: 999;
     box-shadow: -3px -3px 20px -1px;
 }
 .purchase-center{
     transform: scale(105%);
+    background-color: white;
+    position: relative;
+    z-index: 999;
 }
 .purchase-content .uniq{
     margin: auto;
@@ -221,6 +225,9 @@
 }
 .purchase-btn{
     padding-top: 30%;
+}
+.purchase-btn-color{
+    background-color: rgb(99, 236, 99)!important;
 }
 
 
@@ -306,7 +313,7 @@
         height: 40px;
         border: none;
         border-radius: 20px;
-        background-color: lightgreen;
+        background-color: rgb(99, 236, 99);
 }
 /* .footer-third-div{
     padding-top: 48%;
