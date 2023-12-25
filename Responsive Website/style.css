@@ -8,12 +8,16 @@
 /* section one */
 .section-1{
     position: relative;
-    z-index: -99;
+    /* z-index: -99; */
+    height: 115vh;
 }
 .sec1-2{
+    padding-top: 10%;
+    padding-left: 5%!important;
+}
+.secure-sec-bg{
     position: absolute;
-    top: 20%;
-    left: 13%;
+    z-index: -9;
 }
 .sec1-2-1{
     width: 40%;
@@ -344,6 +348,9 @@ table p{
     font-size: 11px;
 }
         /* secure-section */
+.section-1{
+    height: 43vh;
+}
 .sec1-h1{
     font-size: 25px!important;
     font-weight: 200;
@@ -423,9 +430,17 @@ table p{
 }
 }
 
-@media screen and (max-width: 450px) and (max-width: 490px){
-    .header-button{
+@media only screen and (max-width: 576px){
+            /* header-section */
+    .header-list {
+        display: block;
+        text-align: center;
+    }
+    .header-buttons{
         display: none;
+    }
+    .header-sm-buttons{
+        text-align: center;
     }
     .secure-section-bg{
         display: none;
@@ -433,7 +448,76 @@ table p{
     .btm-ban{
         display: none;
     }
-   
+            /* secure-section */
+    .secure-bg-img{
+        display: none;
+    }
+    .section-1{
+        display: none;
+    }
+    .secure-for-sm{
+        background-color: rgb(37, 122, 248);
+    }
+    .secure-head-div{
+        text-align: center;
+    }
+    .secure-h1{
+        font-size: xx-large;
+        color: white;
+        font-weight: 600;
+    }
+    .secure-para{
+        color: white;
+    }
+    .secure-head-div button{
+        font-size: 12px;
+    }
+            /* Save-section */
+    .collect-sec-head{
+        font-size: larger;
+    }   
+    .save-head-para{
+        font-size: small;
+    }
+    .save-sec-one{
+        display: none;
+    }
+    .save-section-heading{
+        font-size: large;
+        text-align: center;
+    }
+    .save-section-para{
+        font-size: small;
+        text-align: center;
+    }
+    .save-para-div .uniq{
+        margin: 0 0 0 35px;
+    }
+    .save-card-two{
+        display: none;
+    }
+    .save-card-three{
+        display: none;
+    }
+            /* work-section */
+    .work{
+        background-color: rgb(37, 122, 248);
+    }
+    .work-bg{
+        display: none;
+    }
+    .work-pesudo-element-1::before{
+        display: none;
+    }
+    .work-pesudo-element-2::before{
+        display: none;
+    }
+    .work-icon-div{
+        width: auto!important;
+    }
+    .purchase-content{
+        margin-top: 40px!important;
+    }
 }
 
 

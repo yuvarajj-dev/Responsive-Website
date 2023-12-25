@@ -25,8 +25,8 @@
                 <div class="col-lg-3 col-md-2 align-self-md-center">
                     <img src="./webpageTask-1/images/headerlogo.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-6 align-self-center header-list col-md-6">
-                    <ul class="d-flex justify-content-between align-item-center list-unstyled list-1 mb-0  ">     
+                <div class="col-lg-6 align-self-center header-list col-md-6 ">
+                    <ul class="d-lg-flex justify-content-lg-between d-md-flex justify-content-md-between align-item-center list-unstyled list-1 mb-0  ">     
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">PRICING</a></li>
                         <li><a href="#">SUPPORT</a></li>
@@ -35,9 +35,13 @@
                         <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-4 header-buttons align-self-center d-flex justify-content-around my-md-2 ">
+                <div class="col-lg-3 col-md-4 header-buttons align-self-center d-lg-flex justify-content-lg-around d-md-flex justify-content-md-around my-md-2 ">
                     <button class="btn header-btn-1 py-md-0">LOGIN</button>
                     <button class="btn btn-success header-btn-2 py-md-0 ">LIVE DEMO</button>
+                </div>
+                <div class="d-lg-none d-md-none header-sm-buttons">
+                    <div class="py-3"><button class="btn header-btn-1 ">LOGIN</button></div>
+                    <div class="pb-3"><button class="btn btn-success header-btn-2 ">LIVE DEMO</button></div>
                 </div>
             </div>
         </div>
@@ -45,17 +49,17 @@
 
                                         <!-- section one -->
 
-    <section class="section-1 w-100">
-        <div class="w-100">
-            <img src="./webpageTask-1/images/banner/banner1.png" alt="banner-img"  class="img-fluid">
+    <section class="section-1 w-100 ">
+        <div class="w-100 secure-sec-bg">
+            <img src="./webpageTask-1/images/banner/banner1.png" alt="banner-img"  class="img-fluid secure-bg-img">
         </div>
-        <div class="sec1-2">
+        <div class="sec1-2 container">
             <div class="sec1-2-1">
-              <h1 class=" sec1-h1">GoFileDrop Secure Collabaration for Your Business</h1>
+              <h1 class="sec1-h1">GoFileDrop Secure Collabaration for Your Business</h1>
               <p class="secure-para" >Connect the people you work to your Cloud Storage account with GoFileDrop </p>
               <button class="btn btn-success section-one-btn-one">FREE TRY GOFILEDROP VS for Google G-Suite -></button>
               <button class="btn btn-success section-one-btn-one">FREE TRY GOFILEDROP VS for Gmail -></button> 
-            </div>     
+            </div>   
             <div class="sec1-int">
                 <input type="radio" name="rad" />
                 <input type="radio" name="rad" />
@@ -66,24 +70,36 @@
             <img src="./webpageTask-1/images/banner/banner-bottom.png" alt="banner-bottom" class="img-fluid">
         </div>
     </section>
+                <!-- for-sm-device -->
+    <div class="d-lg-none d-md-none secure-for-sm py-5">
+        <div>
+            <div class="secure-head-div">
+                <h1 class="secure-h1">GoFileDrop Secure Collabaration for Your Business</h1>
+                <p class="secure-para" >Connect the people you work to your Cloud Storage account with GoFileDrop </p>
+                <button class="btn btn-success section-one-btn-one">FREE TRY GOFILEDROP VS for Google G-Suite -></button>
+                <button class="btn btn-success section-one-btn-one">FREE TRY GOFILEDROP VS for Gmail -></button> 
+              </div>   
+            
+        </div>
+    </div>
                                         
                                             <!-- section-2 -->
     
-    <section class="container sec-2">
-        <div class="row w-100">
+    <section class="container sec-2 ">
+        <div class="row w-100 ">
             <div class="sec2-1 col-12">
                 <div class="sec2-1-1">                
                     <h2 class="collect-sec-head">Save Hours Collecting </h2>
                     <h2 class="collect-sec-head">the files you need to get the job done</h2>
                     <p></p>
-                    <div class="offset-3">
-                        <p class="">receive digital documents, photos, and videos from client without requiring to download a program or register at yet another service.</p>
+                    <div class="offset-3  ">
+                        <p class="save-head-para">receive digital documents, photos, and videos from client without requiring to download a program or register at yet another service.</p>
                     </div>
                 </div>
             </div>
         </div>
                                                 <!-- section-2-2 -->
-        <div class="d-flex justify-content-between w-100">
+        <div class="d-lg-flex justify-content-lg-between d-md-flex justify-content-md-between save-sec-one w-100">
             <div class="sec2-2 w-50 align-self-lg-center">
                <div class="sec2-2-1 ">
                 <h3 class="save-section-heading">Keep files out of your inbox and automatically organized</h3>
@@ -98,8 +114,26 @@
                 <img src="./webpageTask-1/images/others/collect.png" alt="image-1" class="img-fluid">
            </div>
         </div>
+                            <!-- for-sm-device -->
+        <div class="d-lg-none py-2 justify-content-lg-between save-sm-sec d-md-none justify-content-md-between w-100">
+            <div class="sec2-3 w-50 py-2 col-12 offset-3">
+                <img src="./webpageTask-1/images/others/collect.png" alt="image-1" class="img-fluid">
+           </div>
+            <div class="sec2-2 w-50 align-self-lg-center col-12 offset-3 ">
+               <div class="sec2-2-1 ">
+                <h3 class="save-section-heading">Keep files out of your inbox and automatically organized</h3>
+                <div class="save-para-div col-12 offset-2">
+                    <p class="uniq"></p>
+                    <p class="w-75 save-section-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Veritatis debitis, ab dolore accusantium incidunt delectus necessitatibus autem atque sed, deleniti provident.
+                     Nobis corrupti facere corporis. Cupiditate vel sequi tenetur voluptates.</p>
+                    <a href="#" class="text-decoration-none text-primary"><strong>FIND OUT MORE ➜</strong></a>
+                </div>
+               </div>
+            </div>
+        </div>
                                             <!-- section-2-3 -->
-        <div class="py-4 d-flex justify-content-between w-100 " >
+        <div class="py-4 d-lg-flex save-card-two justify-content-lg-between d-md-flex justify-content-md-between w-100 " >
             <div class="sec-2-img w-50">
                 <img src="./webpageTask-1/images/others/collect2.png" alt="image-2" class="img-fluid">
             </div>
@@ -112,8 +146,28 @@
                 <a href="#" class="text-decoration-none text-primary"><strong>FIND OUT MORE ➜</strong></a>
             </div>
         </div>
+                            <!-- for-sm-device -->
+        <div class="d-lg-none py-2 justify-content-lg-between save-sm-sec d-md-none justify-content-md-between w-100">
+            <div class="sec2-3 w-50 col-12 py-2 offset-3">
+                <img src="./webpageTask-1/images/others/collect2.png" alt="image-1" class="img-fluid">
+            </div>
+            <div class="sec2-2 w-50 align-self-lg-center col-12 offset-3 ">
+                <div class="sec2-2-1 ">
+                <h3 class="save-section-heading">Simple and intuitive to your clients, and your team</h3>
+                <div class="save-para-div col-12 offset-2">
+                    <p class="uniq"></p>
+                    <p class="w-75 save-section-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                        Veritatis debitis, ab dolore accusantium incidunt delectus necessitatibus autem atque sed, deleniti provident.
+                                         Nobis corrupti facere corporis. Cupiditate vel sequi tenetur voluptates.</p>
+                    <a href="#" class="text-decoration-none text-primary"><strong>FIND OUT MORE ➜</strong></a>
+                </div>
+                </div>
+            </div>
+        </div>
+       
+        
                                                 <!-- section-2-4 -->
-        <div class="pb-5 d-flex justify-content-between w-100">
+        <div class="pb-5 d-lg-flex save-card-three justify-content-lg-between d-md-flex justify-content-md-between w-100">
             <div class="sec2-4-h sec2-2 align-self-center w-50    ">
                 <h3 class="save-section-heading">A Secure & Professional </h3>
                 <h3 class="save-section-heading">Experience for your customer</h3>
@@ -125,6 +179,24 @@
             </div>
             <div class="w-50">
                 <img src="./webpageTask-1/images/others/collect3.png" alt="image-3" class="img-fluid">
+            </div>
+        </div>
+                                    <!-- for-sm-device -->
+        <div class="d-lg-none pb-5 pt-2 justify-content-lg-between save-sm-sec d-md-none justify-content-md-between w-100">
+            <div class="sec2-3 w-50 col-12 offset-3 py-3">
+                <img src="./webpageTask-1/images/others/collect3.png" alt="image-1" class="img-fluid">
+            </div>
+            <div class="sec2-2 w-50 align-self-lg-center col-12 offset-3 ">
+                <div class="sec2-2-1 ">
+                <h3 class="save-section-heading">A Secure & Professional Experience for your customer</h3>
+                <div class="save-para-div col-12 offset-2">
+                    <p class="uniq"></p>
+                    <p class="w-75 save-section-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                                Veritatis debitis, ab dolore accusantium incidunt delectus necessitatibus autem atque sed, deleniti provident.
+                                                 Nobis corrupti facere corporis. Cupiditate vel sequi tenetur voluptates.</p>
+                    <a href="#" class="text-decoration-none text-primary"><strong>FIND OUT MORE ➜</strong></a>
+                </div>
+                </div>
             </div>
         </div>
     </section>
@@ -143,7 +215,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="feature-three-box col-4  text-center py-5 px-5 ">
+                <div class="feature-three-box col-lg-4 col-md-4  text-center py-5 px-5 ">
                     <div class="three-box-icon">
                         <img src="./webpageTask-1/images/icons/feature-3.png" alt="three-box-icon" class="img-fluid bg-primary">
                     </div>
@@ -156,7 +228,7 @@
                     </div>
                 </div>
 
-                <div class="feature-three-box col-4 text-center p-5 ">
+                <div class="feature-three-box col-lg-4 col-md-4 text-center p-5 ">
                     <div class="three-box-icon">
                         <img src="./webpageTask-1/images/icons/feature-2.png" alt="three-box-icon" class="img-fluid bg-primary">
                     </div>
@@ -168,7 +240,7 @@
                            </p>
                     </div>
                 </div>
-                <div class="feature-three-box col-4 text-center p-5 ">
+                <div class="feature-three-box col-lg-4 col-md-4 text-center p-5 ">
                     <div class="three-box-icon">
                         <img src="./webpageTask-1/images/icons/feature-1.png" alt="three-box-icon" class="img-fluid bg-primary">
                     </div>
@@ -199,7 +271,7 @@
             </div>
             <div class="container py-lg-4 py-md-3 my-lg-5">
                 <div class="row justify-content-between">
-                    <div class="bg-light col-4 py-4 py-md-2 work-icon-div work-pesudo-element-1">
+                    <div class="bg-light col-lg-4 col-md-4 py-4 my-2 py-md-2 my-md-1  work-icon-div work-pesudo-element-1">
                         <div class="work-icon-1 text-center py-3 py-md-2">
                             <img src="./webpageTask-1/images/icons/work-3-wh.png" alt="work-icon-1" class="work-icon-img bg-primary">
                         </div>
@@ -208,7 +280,7 @@
                             <p class="py-2 work-card-para">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa,Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa</p>
                         </div>
                     </div>
-                    <div class="bg-light col-4 py-4 py-md-2 work-icon-div work-pesudo-element-2">
+                    <div class="bg-light col-lg-4 col-md-4 py-4 my-2 py-md-2 my-md-1  work-icon-div work-pesudo-element-2">
                         <div class="work-icon-1 text-center py-3 py-md-2">
                             <img src="./webpageTask-1/images/icons/work-1-wh.png" alt="work-icon-1" class="work-icon-img bg-primary">
                         </div>
@@ -217,7 +289,7 @@
                             <p class="py-2 work-card-para">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa,Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa</p>
                         </div>
                     </div>
-                    <div class="bg-light col-4 py-4 py-md-2 work-icon-div">
+                    <div class="bg-light col-lg-4 col-md-4 py-4 my-2 my-md-1 py-md-2 work-icon-div">
                         <div class="work-icon-1 text-center py-3 py-md-2">
                             <img src="./webpageTask-1/images/icons/work-2-wh.png" alt="work-icon-1" class="work-icon-img bg-primary">
                         </div>
@@ -238,14 +310,14 @@
                                         
     <section class="purchase-section container py-5  ">
         <div class="row">
-            <div class="text-center col-8 offset-2 py-5 sec2-2 purchase-heading">
+            <div class="text-center col-lg-8 offset-lg-2 col-md-8 offset-md-2 py-5 sec2-2 purchase-heading">
                 <h1>Purchase GoFileDrop Subscriptions</h1>
                 <p class="uniq my-3"></p>
                 <p>Monthly subscriptions will automatically renew each month annual subscriptions renew each year. Cancel at any time by emailing mall@gotiledrop.com</p>
             </div>
         </div>
         <div class="row purchase-card-one p-0 ">
-            <div class="text-center col-4 purchase-content">
+            <div class="text-center col-lg-4 col-md-4 purchase-content">
                 <div class="py-3">
                     <h3 class="text-primary py-2">Basic</h3>
                     <p class="m-0">Starting at</p>
@@ -273,7 +345,8 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center col-4 p-0 purchase-center purchase-content ">
+
+            <div class="text-center col-lg-4 col-md-4 p-0 purchase-center purchase-content ">
                 <div class="py-3 sec2-2">
                     <h3 class="text-primary py-2">Professional</h3>
                     <p class="uniq my-2"></p>
@@ -301,8 +374,9 @@
                         <button class="btn purchase-btn-color">GET STARTED</button>
                     </div>
                 </div>
-            </div>   
-            <div class="text-center col-4 p-0  purchase-content ">
+            </div>  
+
+            <div class="text-center col-lg-4 col-md-4 p-0  purchase-content ">
                 <div class="py-3 sec2-2">
                     <h3 class="text-primary py-2">Bussiness</h3>
                     <p class="m-0">Starting at</p>

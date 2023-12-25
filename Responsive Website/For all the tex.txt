@@ -1,36 +1,3 @@
-Purchase GoFileDrop Subscriptions
-Monthly subscriptions will automatically renew each month annual subscriptions renew each year. Cancel at any time by emailing mall@gotiledrop.com
-Basic
-Starting at $19.00 per month
-File Limit 108/fle
-Total transfer 300 GB/Month
-Ardd to your website
-Whitelabel (Your logo & Text)
-Email Notifications
-PROFESSIONAL
-Starting at $49.00 per month
-File Limit 1GB/ble
-Total bansfer 500 GB/Month
-Add to your website
-Whitelabel (Your logo & Text)
-Email Notifications
-Custom theme & colors
-Shared Drives & Sharepoint Support
-Up to 5 Forms Fields
-Business
-Starting at $99.00 per month
-File Limit 1GB/file
-Total transfer 1000 GB/Month
-Add to your website
-Whitelabel (Your logo & Text)
-Email Notifications
-Custom theme & colors
-Shared Drives & Sharepoint Support
-Unlimited Forma Fields
-Pipeline Mode
-GoFileDrop
-Zoom:
-Type here to search
-GET STARTED
-GET STARTED
-Activate 
+media query
+secure section background img with heading
+	
