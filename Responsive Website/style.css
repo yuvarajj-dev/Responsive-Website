@@ -49,35 +49,6 @@
     box-shadow: 1px 2px 7px -1px black;
 }
 
-    /* css media query for sm - md */
-
-    @media (min-width: 750px) and (max-width: 992px) { 
-                /* hearder-section */
-        .header-list{
-            font-weight: 100;
-            font-size: 11px;
-        }
-                /* secure-section */
-        .sec1-h1{
-            font-size: 25px!important;
-            font-weight: 200;
-        }
-        .secure-para{
-            font-size: 15px;
-        }
-        .section-one-btn-one{
-            font-size: 9px!important;
-            height: 25px;
-        }
-        .sec1-int input{
-            height: 15px;
-            width: 15px;
-        }
-     }
-
-
-
-
             /* section-2 */
 
 .sec2-1-1{
@@ -364,9 +335,106 @@ table p{
 
 
 
+    /* css media query for sm - md */
 
+    @media (min-width: 750px) and (max-width: 992px) { 
+        /* hearder-section */
+.header-list{
+    font-weight: 100;
+    font-size: 11px;
+}
+        /* secure-section */
+.sec1-h1{
+    font-size: 25px!important;
+    font-weight: 200;
+}
+.secure-para{
+    font-size: 15px;
+}
+.section-one-btn-one{
+    font-size: 9px!important;
+    height: 25px;
+}
+.sec1-int input{
+    height: 15px;
+    width: 15px;
+}
+.save-section-heading{
+    font-size: large;
+    font-weight: 400;
+}
+.save-section-para{
+    font-size: small;
+}
+        /* feature-section */
+.feature-card-one{
+    width: 100%;
+    text-align: center;
+}
+.feature-card-one-heading{
+    font-size: large;
+}
+.feature-card-one-para{
+    font-size: smaller;
+}
+        /* work-section */
+.work-pesudo-element-1::before{
+    display: none;
+}
+.work-pesudo-element-2::before{
+    display: none;
+}
+.work-icon-1 img{
+    width: 50px;
+    height: 50px;
+}
+.work-card-heading{
+    font-size: medium;
+    font-weight: 500;
+}
+.work-card-para{
+    font-size: x-small;
+}
+.profile-previous-icon-div{
+    display: none;
+}
+        /* profile-section */
+.profile-bgimg-div{
+    display: none;
+}
+.next-img-div{
+    display: none;
+}
+.footer-frist-div-para{
+    font-size: small;
+}
+.footer-bg-div{
+    display: none;
+}
+.footer-section{
+    background-color: rgb(128, 125, 125);
+}
+.footer-forth-div a{
+    display: block;
+    justify-content: center;
+}
+.horizontal-line{
+    border: 1px solid black;
+}
+}
 
-
+@media screen and (max-width: 450px) and (max-width: 490px){
+    .header-button{
+        display: none;
+    }
+    .secure-section-bg{
+        display: none;
+    }
+    .btm-ban{
+        display: none;
+    }
+   
+}
 
 
 
