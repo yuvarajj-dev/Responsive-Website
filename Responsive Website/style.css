@@ -9,19 +9,33 @@
 .section-1{
     position: relative;
     /* z-index: -99; */
-    height: 115vh;
+    /* height: 110vh; */
+}
+.collapse img{
+    height: 70px;
+    width: 200px;
 }
 .sec1-2{
+    position: relative;
     padding-top: 10%;
     padding-left: 5%!important;
 }
 .secure-sec-bg{
     position: absolute;
     z-index: -9;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.secure-bg-img{
+    height: 100%!important;
+    width: 100%;
 }
 .sec1-2-1{
     width: 40%;
     color: white;
+    padding-bottom: 100px!important;
 }
 .sec1-2-1 h1{
     font-weight: 600;
@@ -341,16 +355,16 @@ table p{
 
     /* css media query for sm - md */
 
-    @media (min-width: 750px) and (max-width: 992px) { 
+    @media only screen and (max-width: 992px) { 
         /* hearder-section */
 .header-list{
     font-weight: 100;
     font-size: 11px;
 }
         /* secure-section */
-.section-1{
+/* .section-1{
     height: 43vh;
-}
+} */
 .sec1-h1{
     font-size: 25px!important;
     font-weight: 200;
@@ -517,6 +531,29 @@ table p{
     }
     .purchase-content{
         margin-top: 40px!important;
+        transform: scale(100%);
+    }
+    .profile-bgimg-div{
+        display: none;
+    }
+    .profile-previous-icon-div,.quotation-open, .quotation-line, .closing-quot, .next-img-div{
+        display: none;
+    }
+    .profile-dp-div{
+        text-align: center;
+    }
+    .table-p2{
+        font-size: small;
+    }
+            /* footer-section */
+    .footer-bg-div{
+        display: none;
+    }
+    .footer-section{
+        background-color: rgb(128, 125, 125);
+    }
+    .footer-first-div,.footer-second-div,.footer-third-div,.footer-forth-div{
+        text-align: center;
     }
 }
 
